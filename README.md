@@ -1,6 +1,6 @@
 # m3-hw3-parra-nicole
 Issues I had:
-I was unable to create two columns for the burger section and dine-in/take out section.
+I was unable to create two columns for the burger section and dine-in/take out section (have the H2 abouve the paragraphs, button under the paragraphy and image beside the text)
 
 
 
