@@ -1,6 +1,6 @@
 @primary-color: #F8DF1F;
 @text-color: #050500;
-@heading-span: #EE252F;
+@span-text: #EE252F;
 @light-gray:#F3F3F3;
 @image-background: #3B3838;
 @footer: #080801;
@@ -8,6 +8,21 @@
 @space: 12px;
 @double-space: 24px;
 
-@heading: 30px;
-
-    
+.button{
+    background-color: @primary-color;
+    color: @text-color;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  
+.container{
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 2% 33%;
+}
