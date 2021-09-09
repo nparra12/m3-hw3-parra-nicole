@@ -1,4 +1,9 @@
 # m3-hw3-parra-nicole
+Issues I had:
+I was unable to create two columns for the burger section and dine-in/take out section.
+
+
+
 Resources used: 
 
 centering text on image:
