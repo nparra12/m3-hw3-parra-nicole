@@ -4,72 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="">
+    <title></title>
+    <link rel="stylesheet/less" type="text/css" href="./main.less">
 
-    <!--Boostrap CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    
     <!-- Google Font, Roboto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    
-    <!--Less CDN-->
-    <link rel="stylesheet/less" type="text/css" href="styles.less" />
-    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
-
-
-    <title>Bob's Burgers</title>
-    <meta name="description" content="">
   </head>
   <body>
-
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">ORDER NOW</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-      <img src="img/banner-bg.png" alt="Bob's family in front of Bob's Burgers" title="banner"/>
+      <ul>
+        <li>Home</li>
+        <li>Menu</li>
+        <li>About Us</li>
+        <li><span>Order Now</span></li>
+      </ul>
     </header>
-   <!-- <ul>
-      <li>Home</li>
-      <li>Menu</li>
-      <li>About Us</li>
-      <li>Order Now</li>
-    </ul>
-    <h1>Bob's Burgers</h1>
-    <button>Order Now</button> -->
+    <main>
+      <div>
+        <h1>Bob's Burgers</h1>
+        <button>Order Now</button>
+        <img src="img/banner-bg.png" class="banner" alt="Bob's Burger Banner" title="banner"/>
 
+      </div>
+      
+     
+  
+      <div class="container">
+        <h2>World's Best Burgers</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        <button>View Menu</button>
+        <h2>Dine-in or Take-out</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+        <button>Contact Us</button>
 
-    <h2>World's Best Burgers</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>View Menu</button>
-    <img src="img/bobs-burger.png" alt="Bob's Burgers" title="burger"/>
+      </div>
+  
 
-
-
-    <h2>Dine-in or Take-out</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-    <button>Contact Us</button>
-    <img src="img/bob-headshot.png" alt="Bob's bob-headshot" title="headshot"/>
+    </main>
 
     <footer>
-      <img src="img/logo.png" alt="Bob's Burgers logo" title="logo"/>
+      <img src="img/logo.png" class="footer" alt="Bob's Burgers Logo" title="Bob's Burgers Logo"/>
     </footer>
+   
+
+    <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
   </body>
 </html>
