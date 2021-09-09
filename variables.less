@@ -18,11 +18,28 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
+    @media (min-width: 600px) {
+         font-size: 12px;
+         padding: 15px 20px;
+         font-weight: 600;
+    }
   }
+
   
 .container{
   display: flex;
   align-items: center;
   flex-flow: row wrap;
   padding: 2% 33%;
+}
+
+.banner-logo{
+  width: 115%;
+  min-width: 50%;
+  @media (min-width: 600px){
+    top: 23%;
+    left: 50%;
+    width: 60%;
+  
+  }
 }

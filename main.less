@@ -44,10 +44,9 @@ body, html {
         transform: translate(-50%, -50%);
         font-size: 18px;
         text-align: center;
+        .banner-logo();
       }
-     .banner-logo{
-       width: 115%;
-     }
+     
   }
   
   ul{
@@ -64,15 +63,35 @@ body, html {
       }
   }
 
+  .column-wrapper{
+    display: flex;
+    flex-direction: column;
+ 
+  }
 
+  .burger-container{
+    padding: @double-space;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .image-burger{
+      padding: 2%;
+    }
+
+  }
   .dining-container{
     background-color: @light-gray;
     padding: @double-space;
     display: flex;
     flex-direction: row;
-   
-    align-content: center;
-  
+    align-items: center;
+    .image-bob{
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 2%;
+
+    
+    }
 
   }
   footer{
@@ -80,5 +99,8 @@ body, html {
       text-align: center;
       padding: 1%;
       border-top: 12px solid @primary-color;
+     img.footer{
+        max-width: 20%;
+        min-width: 10%
+      }
   }
-    
